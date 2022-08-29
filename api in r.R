@@ -3,7 +3,7 @@ require(C50)
 library(httr)
 library(jsonlite)
 #* Echo back the output
-#* @get /echo
+#* @get /
 function(msg=""){
   #Ali Api
   API_URL <- paste0('https://jsonplaceholder.typicode.com/todos/1')
